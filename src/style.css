@@ -1,0 +1,98 @@
+.login-navbar{
+    width: 100%;
+    background-color: var(--white-color);
+    padding: 15px 0;
+}
+.login-navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.login-navbar .logo img{
+    width: 50px;
+}
+
+.login-container{
+    width: 40%;
+    margin: 15px auto;
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 34px rgba(0, 0, 0, 0.11);
+}
+
+
+.table-area{
+    width: 100%;
+    overflow: auto;
+    overflow-x: scroll;
+    min-height: 70vh;
+    padding: 10px;
+}
+
+.form-group .form-control{
+    padding: 8px !important;
+}
+
+.details{
+    width: 80%;
+    margin: 22px auto;
+    border: 1px solid gray;
+}
+.details .body{
+    padding: 8px;
+}
+.details .details-header{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    padding: 20px;
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 14px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 7px 18px;
+}
+.features-grid .feature {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature .label {
+    width: 50%;
+}
+.feature .label p{
+    font-size: 13px;
+    color: rgb(27, 27, 27);
+}
+.features-grid .feature .paragraph{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 992px) {
+    .login-container{
+        width: 47%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .details{
+        width: 95%;
+    }
+    .features-grid {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+@media screen and (max-width: 600px) {
+    .login-container{
+        width: 90%;
+    }
+    
+}
