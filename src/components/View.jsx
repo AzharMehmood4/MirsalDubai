@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { db, auth } from "../firebase"; // Import auth
+import { db, auth } from "../firebase";
 import {
   collection,
   onSnapshot,
