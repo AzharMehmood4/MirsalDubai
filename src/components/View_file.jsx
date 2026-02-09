@@ -108,6 +108,41 @@ function View_file() {
             </h4>
           </div>
 
+          <div className="modal-body">
+            <form className="form-horizontal two-column-layout">
+              <div className="row">
+                <div className="col-xs-12">
+                  <div className="widget-box">
+                    <div className="widget-header" data-action="collapse">
+                      <h4>VCC/Vehicle Details</h4>
+                    </div>
+                    <div className="widget-body">
+                      <div className="widget-main">
+                        <div className="item-information-container">
+                          {allData.map(([label, value], idx) => (
+                            <div className="item-information" key={idx}>
+                              <label>{label} :</label>
+                              <div>
+                                <span
+                                  style={
+                                    label === "VCC Status"
+                                      ? { color: "red", fontWeight: "bold" }
+                                      : {}
+                                  }
+                                >
+                                  {value}
+                                </span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
