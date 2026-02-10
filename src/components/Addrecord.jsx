@@ -43,6 +43,26 @@ const AddRecord = () => {
       alert("Record saved successfully!");
       setFormData({
         vccNo: "",
+        vccDate: "",
+        chasisNo: "",
+        engineNo: "",
+        driver: "",
+        buildYear: "",
+        origin: "",
+        engineCapacity: "",
+        carriageCapacity: "",
+        passengerCapacity: "",
+        vehicleModal: "",
+        brandName: "",
+        vehicleType: "",
+        color: "",
+        specification: "",
+        declarationNo: "",
+        declarationDate: "",
+        ownerCode: "",
+        ownerName: "",
+        vccStatus: "",
+        printRemark: "",
       });
       navigate(-1);
     } catch (error) {
