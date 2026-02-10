@@ -6,13 +6,52 @@ import { onAuthStateChanged } from "firebase/auth";
 
 const formFields = [
   { label: "VCC No", name: "vccNo", type: "text" },
- 
+  { label: "VCC Generation date", name: "vccDate", type: "date" },
+  { label: "Chasis No.", name: "chasisNo", type: "text" },
+  { label: "Engine No", name: "engineNo", type: "text" },
+  { label: "Vehicle Driver", name: "driver", type: "text" },
+  { label: "Year of build", name: "buildYear", type: "text" },
+  { label: "Country of origin", name: "origin", type: "text" },
+  { label: "Engine capacity", name: "engineCapacity", type: "text" },
+  { label: "Carriage capacity", name: "carriageCapacity", type: "text" },
+  { label: "Passenger capacity", name: "passengerCapacity", type: "text" },
+  { label: "Vehicle Modal", name: "vehicleModal", type: "text" },
+  { label: "Vehicle Brand Name", name: "brandName", type: "text" },
+  { label: "Vehicle Type", name: "vehicleType", type: "text" },
+  { label: "Vehicle Color", name: "color", type: "text" },
+  { label: "Specification Standard Name", name: "specification", type: "text" },
+  { label: "Declaration Number", name: "declarationNo", type: "text" },
+  { label: "Declaration Date", name: "declarationDate", type: "date" },
+  { label: "Owner Code", name: "ownerCode", type: "text" },
+  { label: "Owner Name", name: "ownerName", type: "text" },
+  { label: "Print Remark", name: "printRemark", type: "text" },
+  { label: "Vcc Status", name: "vccStatus", type: "text" },
 ];
 
 const AddRecord = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     vccNo: "",
+    vccDate: "",
+    chasisNo: "",
+    engineNo: "",
+    driver: "",
+    buildYear: "",
+    origin: "",
+    engineCapacity: "",
+    carriageCapacity: "",
+    passengerCapacity: "",
+    vehicleModal: "",
+    brandName: "",
+    vehicleType: "",
+    color: "",
+    specification: "",
+    declarationNo: "",
+    declarationDate: "",
+    ownerCode: "",
+    ownerName: "",
+    vccStatus: "",
+    printRemark: "",
   });
   const [user, setUser] = useState(null);
 
