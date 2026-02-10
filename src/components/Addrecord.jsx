@@ -16,6 +16,16 @@ const formFields = [
   { label: "Carriage capacity", name: "carriageCapacity", type: "text" },
   { label: "Passenger capacity", name: "passengerCapacity", type: "text" },
   { label: "Vehicle Modal", name: "vehicleModal", type: "text" },
+  { label: "Vehicle Brand Name", name: "brandName", type: "text" },
+  { label: "Vehicle Type", name: "vehicleType", type: "text" },
+  { label: "Vehicle Color", name: "color", type: "text" },
+  { label: "Specification Standard Name", name: "specification", type: "text" },
+  { label: "Declaration Number", name: "declarationNo", type: "text" },
+  { label: "Declaration Date", name: "declarationDate", type: "date" },
+  { label: "Owner Code", name: "ownerCode", type: "text" },
+  { label: "Owner Name", name: "ownerName", type: "text" },
+  { label: "Print Remark", name: "printRemark", type: "text" },
+  { label: "Vcc Status", name: "vccStatus", type: "text" },
 ];
 
 const AddRecord = () => {
