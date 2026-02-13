@@ -26,7 +26,7 @@ const formFields = [
   { label: "Owner Name", name: "ownerName", type: "text" },
   { label: "Print Remark", name: "printRemark", type: "text" },
   { label: "Vcc Status", name: "vccStatus", type: "text" },
-  { label: "Vcc number", name: "vccStatus", type: "text" },
+  { label: "Vcc Status", name: "vccStatus", type: "text" },
 ];
 
 const AddRecord = () => {
