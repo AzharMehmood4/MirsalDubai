@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Kanit:wght@300&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: unset;
+}
+
+:root{
+    --panel-color: #F9F9F9;
+    --primary-color: #0D009D;
+    --primary-color-light: #3d34a1;
+    --black-color: #000;
+    --dark-color: #B9B9B9;
+    --border-color: #919191;
+    --light-color: #e7e6e6;
+    --grey-color: #F9F9F9;
+    --white-color: #fff;
+}
+
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
